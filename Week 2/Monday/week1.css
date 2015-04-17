@@ -1,0 +1,39 @@
+body {
+  font-size: 125%; /* 20px */
+  background: #c0c0c0 url('http://www.newyorker.com/wp-content/uploads/2014/08/Stokes-Hello-Kitty2-1200.jpg') 1em 1em / 10em 10em no-repeat;
+}
+
+
+article.environmentCategory {
+  background: #0f0;
+}
+
+[data-awesome] {
+  color: #0ff;
+}
+
+article {
+  background: #000;
+}
+
+
+#SaveTheWorld {
+  background: #f00;
+}
+
+article#SaveTheWorld.environmentCategory {
+  background: #00f;
+}
+
+article p {
+  background: #f00;
+}
+
+div > p {
+  background-color: #0f0;
+}
+
+
+p {
+  background-color: #fff;
+}
